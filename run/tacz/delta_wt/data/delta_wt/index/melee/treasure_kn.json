@@ -1,0 +1,42 @@
+{
+"name": "item.delta_wt.treasure_kn",
+  "type": "lrtactical:normal",
+  "base_item": "lrtactical:melee",
+  "data": {
+    "attributes": {
+      "generic.attack_damage": 8,
+      "minecraft:generic.movement_speed": {
+        "amount": 0.05,
+        "operation": "percent"
+      }
+    },
+    "draw_time": 20,
+    "put_away_time": 0,
+    "attack": {
+      "attack_left": {
+        "factor": 1.3,
+        "knockback": 0.25,
+        "cooldown": 8,
+        "delay": 2.8,
+        "hitbox": {
+          "type": "cone",
+          "max_range": 4,
+          "max_angle": 110,
+          "exclude_self": true
+        }
+      },
+      "attack_right": {
+        "factor": 1.7,
+        "knockback": 0.3,
+        "cooldown": 17,
+        "delay": 6,
+        "hitbox": {
+          "type": "cone",
+          "max_range": 4,
+          "max_angle": 50,
+          "exclude_self": true
+        }
+      }
+    }
+  }
+}
