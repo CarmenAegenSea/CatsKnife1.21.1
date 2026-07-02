@@ -1,66 +1,30 @@
+# Dev scripts
+*.ps1
+*.py
+lr_ref/
+
 # Gradle
 .gradle/
 build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
 
 # IDE
 .idea/
 *.iml
 *.ipr
 *.iws
-.settings/
-.project
-.classpath
-*.class
+out/
 
-# Minecraft dev
-run/logs/
-run/crash-reports/
-run/saves/
-run/config/
-run/*.txt
-run/*.log
-run/*.dat
-run/*.dat_old
-run/*.lock
-run/screenshots/
-run/resourcepacks/
-run/server-resource-packs/
-run/options.txt
-run/hotbar.nbt
-run/ advancements/
-run/stats/
-run/debug/
-run/downloads/
-run/mods/*.jar
-run/usercache.json
-run/usernamecache.json
-
-# Default TACZ gun pack (not ours)
-run/tacz/tacz_default_gun/
-run/tacz/.export-state.json
-
-# System
-sys
-
-# Save files in project root
-新的世界*/
-镇流谷*/
+# Run directory (auto-generated)
+/run/*
+!/run/tacz
+/run/tacz/*
+!/run/tacz/catsknife/
+!/run/tacz/delta_wt/
 
 # OS
-.DS_Store
+sys
 Thumbs.db
-*.swp
-*.swo
-*~
+*.DS_Store
 
-# Environment
-.env
-local.properties
-sys/
-
-# Jars
-*.jar
-!gradle/wrapper/gradle-wrapper.jar
+# Wonderland
+新的世界*/

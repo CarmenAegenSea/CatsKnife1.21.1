@@ -1,0 +1,84 @@
+{
+  "model": "catsknife:melee/dao2_geo",
+  "animation": "catsknife:melee/dao2",
+  "state_machine": "catsknife:dao2_state_machine",
+  "texture": "catsknife:melee/dao2_uv",
+  "slot_texture": "catsknife:melee/slot/dao2",
+  "sounds": {
+    "crit": "minecraft:entity.player.attack.crit"
+  },
+  "transforms": {
+        "thirdperson_righthand": {
+            "rotation": [
+                90,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                20,
+                1
+            ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [
+                90,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                20,
+                1
+            ]
+        },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        0,
+        0,
+        -30
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    "head": {
+      "translation": [
+        0,
+        4.75,
+        0
+      ]
+    },
+    "fixed": {
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  }
+}
