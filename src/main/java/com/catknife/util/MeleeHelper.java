@@ -17,11 +17,6 @@ public class MeleeHelper {
 
     /**
      * 在玩家视角锥形范围内查找目标实体。
-     *
-     * @param user        攻击者
-     * @param range       最大距离
-     * @param rangeAngle  锥形半角（度）
-     * @return 范围内且无阻挡的实体列表
      */
     public static List<LivingEntity> findTargetsInCone(LivingEntity user, double range, float rangeAngle) {
         List<LivingEntity> results = new ArrayList<>();
@@ -89,7 +84,7 @@ public class MeleeHelper {
     }
 
     /**
-     * 完整的一次近战攻击：查找目标 → 计算伤害 → 应用伤害 → 返回命中数。
+     * 完整的一次近战攻击：查找目标 - 计算伤害 - 应用伤害 - 返回命中数。
      */
     public static int doMelee(LivingEntity user, double range, float rangeAngle,
                                float baseDamage, float knockback) {

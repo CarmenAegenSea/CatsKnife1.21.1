@@ -3,7 +3,7 @@ package com.catknife.action;
 import com.google.gson.annotations.SerializedName;
 
 /**
- * 刀类近战配置 — 合并 TACZ 的 GunMeleeData + GunDefaultMeleeData。
+ * 刀类近战配置 — 合并 TACZ 的 GunMeleeData + GunDefaultMeleeData
  */
 public class KnifeMeleeConfig {
 

@@ -31,6 +31,7 @@ public class GunSlashMeleeData {
     @SerializedName("prep")
     private float prepTime = 0.05f;
 
+
     @SerializedName("sweep_angle")
     private float sweepAngle = 90f;
 
